@@ -6,6 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.davevarga.tmdbmovies.models.Movie
+import com.davevarga.tmdbmovies.models.MovieList
 import com.davevarga.tmdbmovies.models.Years
 import com.davevarga.tmdbmovies.utils.Converters
 import java.time.Year

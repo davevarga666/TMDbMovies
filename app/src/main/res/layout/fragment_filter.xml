@@ -36,6 +36,7 @@
             app:layout_constraintTop_toBottomOf="@id/selectRange">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/minYear_value"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="phone"
@@ -55,6 +56,7 @@
             app:layout_constraintTop_toBottomOf="@id/minYear">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/maxYear_value"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="phone"

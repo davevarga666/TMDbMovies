@@ -34,7 +34,7 @@ class DetailFragment : Fragment() {
         binding.movie = args.movieDetails
         val backgroundPoster = args.movieDetails.backdropPath
         Glide.with(view)
-            .load("http://image.tmdb.org/t/p/w185/" + backgroundPoster)
+            .load("http://image.tmdb.org/t/p/w500/" + backgroundPoster)
             .into(binding.backgroundPoster)
     }
 

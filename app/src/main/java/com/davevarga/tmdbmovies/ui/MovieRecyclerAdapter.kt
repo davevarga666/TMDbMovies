@@ -40,9 +40,6 @@ class MovieRecyclerAdapter(var items: List<Movie>, var clickListener: MovieClick
         return holder.bind(items.get(position), binding, clickListener!!)
     }
 
-    fun getItem(position: Int): Movie {
-        return items.get(position)
-    }
 
     override fun getItemCount(): Int {
         return items.size
@@ -82,7 +79,7 @@ class MovieRecyclerAdapter(var items: List<Movie>, var clickListener: MovieClick
 
             Glide.with(itemView.context)
                 .applyDefaultRequestOptions(requestOptions)
-                .load("http://image.tmdb.org/t/p/w185/" + movieItem.posterPath)
+                .load("http://image.tmdb.org/t/p/w500/" + movieItem.posterPath)
                 .error(R.drawable.error_image)
                 .placeholder(circularProgressDrawable)
                 .into(binding.moviePoster)

@@ -12,4 +12,5 @@
     <string name="filter">filter</string>
     <string name="min_year">Min Year</string>
     <string name="maximum_year">Max Year</string>
+    <string name="overview">overview</string>
 </resources>

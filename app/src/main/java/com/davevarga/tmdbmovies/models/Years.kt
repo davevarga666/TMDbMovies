@@ -4,3 +4,4 @@ data class Years(
     var minYear: String,
     var maxYear: String
 )
+
